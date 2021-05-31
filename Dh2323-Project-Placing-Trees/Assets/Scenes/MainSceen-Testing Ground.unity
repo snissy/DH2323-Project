@@ -166,9 +166,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c746907dca582e4d8377eb10030e896, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mapWidth: 100
-  mapHeight: 100
-  noiseScale: 14.06
+  mapWidth: 150
+  mapHeight: 139
+  noiseScale: 118.9
+  s: 0.458
   autoUpdate: 1
 --- !u!4 &1722430263
 Transform:
@@ -259,8 +260,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2138654663}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 100, y: 1, z: 100}
+  m_LocalPosition: {x: 0, y: 0, z: 16}
+  m_LocalScale: {x: 150, y: 1, z: 139}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
