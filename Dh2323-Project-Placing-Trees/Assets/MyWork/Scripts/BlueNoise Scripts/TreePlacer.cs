@@ -54,7 +54,6 @@ public class TreePlacer : MonoBehaviour
         {
             Transform toPlace = treeObject.transform.GetChild(Random.Range(0, treeObject.transform.childCount));
             
-            // Don't know if we are going to use this but I think it's good
             Vector3 position = rdFactor*Random.onUnitSphere +  point;
             position.y = plane.SampleHeight(position);
             

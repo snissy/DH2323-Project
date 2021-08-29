@@ -34,9 +34,9 @@ public class PropagationSpawner : MonoBehaviour
         float[,,] alphaMap = t.GetAlphamaps(0, 0, t.alphamapWidth, t.alphamapHeight);
        
         Forest test = new Forest(terrainWidth, terrainHeight, baseTreeRadius, 3);
-        test.SimulateForrestGrowth(80);
+        test.SimulateForrestGrowth(200);
         List<Vector3> points = test.GETPoints();
-        
+
         foreach (var point in points)
         {
             Transform toPlace = treeObject.transform.GetChild(Random.Range(0, treeObject.transform.childCount));
